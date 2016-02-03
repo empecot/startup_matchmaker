@@ -1,0 +1,129 @@
+/*
+Project Name: Startup Matchmaker
+Author: Emily Pecot
+Developer @GA in NYC
+*/
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html {
+	text-align: center;
+}
+header {
+	width: 100%;
+	background-color: #000;
+	height: 75px;
+	display: inline-block;
+	}
+.logo {
+	font-family: merriweather;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fdf731;
+	padding-left: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	text-decoration: none;
+}
+nav {
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	float: right;
+	width: 700px;
+	padding-right: 50px;
+	padding-top: 27px;
+	text-decoration: none;
+}
+.bold_navs {
+	font-family: oswald;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 20px;
+}
+.light_navs {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 20px;
+}
+	a.nav_container:link {
+        color: white;
+        text-decoration: none;
+      }
+    a.nav_container:hover {
+        color: #fdf731;
+        text-decoration: none;
+      }
+    a.nav_container:visited {
+        color: white;
+        text-decoration: none;
+      }
+.yellow_line {
+	width: 100%;
+	height: 8px;
+	background-color: #fdf731;
+	margin-top: -5px;
+}
+.tagline {
+	width: 100%;
+	height: 75px;
+	background-color: #c6c6c6;
+	color: #000;
+	font-family: merriweather;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 25px;
+	box-sizing: 1px 1px 1px #666666;
+}
+#taste {
+	color: #666666;
+	text-decoration: line-through;
+}
+#are {
+	text-decoration: none;
+	border-bottom: 3px;
+	border-color: #fdf731;
+	border-style: solid;
+}
+.middle {
+
+}
+#coworking {
+	width: 100%;
+	height: 500px;
+}
