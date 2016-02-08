@@ -50,7 +50,16 @@
 			<p>Create a Profile</p>
 			Are you a designer? Developer? Put<br/> yourself out there so that others can<br/> find you!
 			<br/>
-			<button><div id="signup">SIGN UP NOW</div></button>
+
+			<button><div id="signup" href="">SIGN UP NOW</div>
+
+				<script type="text/javascript">
+				    function signup(event){
+				    alert("We are not ready for signups...yet.");
+				    return false;
+				    }
+				    document.getElementById('signup').onclick=signup;
+				</script>
 		</div>
 
 		<div class="box2">

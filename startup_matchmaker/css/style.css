@@ -88,6 +88,26 @@ nav {
 a:hover {
 	color: #fdf731;
 }
+#blog {
+	background-color: #666666;
+	padding: 5px 10px 5px 10px;
+}
+#designers {
+	background-color: #666666;
+	padding: 5px 10px 5px 10px;
+}
+#developers {
+	background-color: #666666;
+	padding: 5px 10px 5px 10px;
+}
+#how_it_works {
+	background-color: #666666;
+	padding: 5px 10px 5px 10px;
+}
+#our_team {
+	background-color: #666666;
+	padding: 5px 10px 5px 10px;
+}
 .bold_navs {
 	font-family: oswald;
 	font-weight: bold;
